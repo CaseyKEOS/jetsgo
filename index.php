@@ -55,55 +55,39 @@
         </div>
       </div>
     </div>
-     <form method="post">
-		<label for="email">Email:</label>
-		<input type="email" name="email" required><br><br>
-		<label for="subject">Subject:</label>
-		<input type="text" name="subject" required><br><br>
-		<label for="message">Message:</label>
-		<textarea name="message" required></textarea><br><br>
-		<input type="submit" name="submit" value="Send Email">
-	</form>
-	<?php
-		use assets\PHPMailer\src\PHPMailer;
-		use assets\PHPMailer\src\Exception;
-		
-		require 'vendor/autoload.php';
-		
-		if(isset($_POST['submit'])){
-			$email = $_POST['email'];
-			$subject = $_POST['subject'];
-			$message = $_POST['message'];
-			
-			$mail = new PHPMailer(true);
-			
-			try {
-				//Server settings
-				$mail->SMTPDebug = 0;
-				$mail->isSMTP();
-				$mail->Host = 'smtp.gmail.com';
-				$mail->SMTPAuth = true;
-				$mail->Username = 'caseykeos352@gmail.com';
-				$mail->Password = 'ddfwxadklfwqruay';
-				$mail->SMTPSecure = 'tls';
-				$mail->Port = 587;
+  <section class="contact_section layout_padding">
+    <div class="container ">
+      <h2 class="">
+        Ask Anything
+      </h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-lg-6 mx-auto">
+          <form action="" method="POST">
+            <div>
+              <input type="text" name="name" placeholder="Name" />
+            </div>
+            <div>
+              <input type="email" name="email" placeholder="Email" />
+            </div>
+            <!-- <div>
+              <input type="text" placeholder="Phone Number" />
+            </div> -->
+            <div>
+              <input type="text" class="message-box" placeholder="Message" />
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="submit">
+                SEND
+              </button>
+            </div>
+          </form>
+        </div>
 
-				//Recipients
-				$mail->setFrom('caseykeos352@gmail.com', 'JetsGo');
-				$mail->addAddress($email);
-
-				//Content
-				$mail->isHTML(true);
-				$mail->Subject = $subject;
-				$mail->Body    = $message;
-
-				$mail->send();
-				echo '<p style="color:green;">Email sent successfully!</p>';
-			} catch (Exception $e) {
-				echo '<p style="color:red;">Error: '.$mail->ErrorInfo.'</p>';
-			}
-		}
-	?>
+      </div>
+    </div>
+  </section>
 
 <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
 
