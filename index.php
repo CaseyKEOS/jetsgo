@@ -58,9 +58,9 @@
         </div>
     </section>
     <section class="section-two">
-      <h1 class="text-uppercase fw-bold mb-4 head-text container">Contact Us!</h1>
         <div class="container mb-3">
           <div class="row">
+          <h1 class="text-uppercase fw-bold mb-4 head-text container">Contact Us!</h1>
             <div class="col-md-8 col-lg-6 mx-auto">
               <form action="send.php" method="POST">
                 <div class="mb-4">
