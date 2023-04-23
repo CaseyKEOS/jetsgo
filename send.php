@@ -7,28 +7,30 @@ require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
 if(isset($_POST["send"])){
+    
+    
     $mail = new PHPMailer(true);
     
     $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = 'smtp.hostinger.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'caseykeos352@gmail.com';
-    $mail->Password = 'jsosrdogmzeeipwb';
-    $mail->SMTPSecure = 'ssl';
-    $mail->Port = 465;
+    $mail->Username = 'contact@jetsgo.fun';
+    $mail->Password = 'C@sey352';
+    $mail->SMTPSecure = 'tls';
+    $mail->Port = 587;
     
-    $mail->setFrom('caseykeos352@gmail.com');
+    $mail->setFrom('contact@jetsgo.fun');
     
     $mail->addAddress($_POST["email"]);
     
     $mail->isHTML(true);
     
     $mail->Subject = $_POST["subject"];
-    $mail->Body = $_POST["message"];
+    $mail->Body = "Thank you for leaving us a message ". $_POST["name"] . "! We already received it, please wait for our reply!";
     
     $mail->send();
     
-    echo
+     echo
     "
     <script>
     alert('Sent Successfully');
