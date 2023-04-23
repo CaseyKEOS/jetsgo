@@ -12,6 +12,29 @@
 <body>
     <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."nav.php"); ?>
 
+    <div class="modal fade" id="delete" tabindex="-1" data-bs-backdrop="static" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="border-radius: 1vh;">
+          <div class="modal-header" style="background-color: #f62e42; color: white;">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Delete Employee</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="background-color: #d5dff7;">
+            Are you sure to delete this?
+          <div class="col-md py-3">
+          <div class="form-floating">
+            <textarea class="form-control" name="arcReason" placeholder="Type here..." id="arcReason" style="height: 150px"></textarea>
+            <label for="arcReason">Reason for Deletion</label>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer" style="background-color: #d5dff7;">
+        <a><button type="submit" class="btn btn-danger">Yes</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="main">
     <section class="section-one">
         <div class="body">
