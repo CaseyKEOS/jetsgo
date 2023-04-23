@@ -30,9 +30,9 @@ if(isset($_POST["send"])){
     
     $mail->send();
     
-     echo '<script type="text/javascript">',
+     echo '<script>',
      'alert("Sent Successfully");',
-     'window.location.replace("link mo idol);',
+     'window.location.replace("https://jetsgo.fun");',
      '</script>';
 }
 ?>
