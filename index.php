@@ -77,7 +77,7 @@
                   <label for="floatingSubject">Subject</label>
                 </div>
                 <div class="form-floating mb-3">
-                  <textarea type="text" class="form-control" name="message" id="floatingMessage" placeholder="Message"></textarea>
+                  <textarea type="text" class="form-control" name="message" id="floatingMessage"  placeholder="Message" style="height: 100px"></textarea>
                   <label for="floatingMessage">Message</label>
                 </div>
                 <div class="d-flex justify-content-center mb-3">
