@@ -30,12 +30,9 @@ if(isset($_POST["send"])){
     
     $mail->send();
     
-     echo
-    "
-    <script>
-    alert('Sent Successfully');
-    document.location.href = index.php
-    </script>
-    ";
+     echo '<script type="text/javascript">',
+     'alert("Sent Successfully");',
+     'window.location.replace("link mo idol);',
+     '</script>';
 }
 ?>
