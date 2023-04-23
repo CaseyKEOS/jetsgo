@@ -56,16 +56,28 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
           <h6 class="text-uppercase fw-bold mb-4 head-text">
-            Information
+            Services Information
           </h6>
           <p>
-            <a href="#!" class="text-reset">Tips for Travelling</a>
+            <a href="#!" class="text-reset">Domestic Ticketing</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Package Around Philippines</a>
+            <a href="#!" class="text-reset">International Ticketing</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Domestic Promo</a>
+            <a href="#!" class="text-reset">Tour Packages</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">NSO Authentication</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Passporting</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Travel Insurance</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Visa Assistance</a>
           </p>
         </div>
 

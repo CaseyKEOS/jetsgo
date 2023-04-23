@@ -58,6 +58,7 @@
         </div>
     </section>
     <section class="section-two">
+      <h1>Contact Us!</h1>
         <div class="container mb-3">
           <div class="row">
             <div class="col-md-8 col-lg-6 mx-auto">
