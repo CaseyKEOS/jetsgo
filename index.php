@@ -60,10 +60,10 @@
     <section class="section-two">
         <div class="container mb-3">
           <div class="row">
-          <h1 class="text-uppercase fw-bold mb-4 head-text container">Contact Us!</h1>
             <div class="col-md-8 col-lg-6 mx-auto">
               <form action="send.php" method="POST">
                 <div class="mb-4">
+                <h1 class="text-uppercase fw-bold mb-4 head-text container">Contact Us!</h1>
                 </div>
                 <div class="form-floating mb-3">
                   <input type="email" class="form-control" name="email" id="floatingEmail" placeholder="name@example.com">
