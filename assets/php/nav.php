@@ -22,12 +22,16 @@
             <ul class="navbar-nav ms-auto">
               <li class="nav-item dropdown">
                 <a class="text nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Information
+                    Services Information
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="text dropdown-item" href="#">Tips for Travelling</a></li>
-                    <li><a class="text dropdown-item" href="#">Package Around Philippines</a></li>
-                    <li><a class="text dropdown-item" href="#">Domestic Promo</a></li>
+                    <li><a class="text dropdown-item" href="#">Domestic Ticketing</a></li>
+                    <li><a class="text dropdown-item" href="#">International Ticketing</a></li>
+                    <li><a class="text dropdown-item" href="#">Tour Packages</a></li>
+                    <li><a class="text dropdown-item" href="#">NSO Authentication</a></li>
+                    <li><a class="text dropdown-item" href="#">Passporting</a></li>
+                    <li><a class="text dropdown-item" href="#">Travel Insurance</a></li>
+                    <li><a class="text dropdown-item" href="#">Visa Assistance</a></li>
                 </ul>
             </li>
             <li class="nav-item dropdown">
