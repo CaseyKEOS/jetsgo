@@ -1,0 +1,65 @@
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    background: #ffffff;
+    overflow-x: hidden;
+    font-size: 14px; }
+    body:before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 99;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.2);
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease; }
+    body.offcanvas-menu:before {
+      opacity: 1;
+      visibility: visible; }
+  
+/* akin to */
+  .navgradient{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.6516981792717087) 100%);
+    
+  }
+  
+  .nav2{
+    padding-top: 110px;
+  }
+  
+  .nav-colored{
+    padding-top: 110px;
+    background: #5E9BB8;
+  }
+  
+  .text-bold{
+    font-weight: bold;
+  }
+
+  .textnew {
+    color: #004175 !important; }
+  
+  .text-yellow{
+    color: #ffffff;
+  }
+  
+  .nav-link{
+    background: #5E9BB8;
+    color: #fff;
+  }
+  
+  .nav-link:hover{
+    color: #004175;
+  }
+  
+  .iconcolor{
+    color: #5E9BB8;
+  }
+  
+  /* ako nagdagdag */
